@@ -28,6 +28,6 @@ Would you like me to explain any specific part of the architecture or show you h
 
 Running the project
 
-Clone to or download to your local machine
-npm install
-npm run dev
+## Clone to or download to your local machine
+- npm install
+- npm run dev
