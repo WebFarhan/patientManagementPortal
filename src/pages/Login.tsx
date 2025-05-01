@@ -71,7 +71,7 @@ const Login: React.FC = () => {
                   Password
                 </label>
                 <a href="#" className="text-sm text-blue-600 hover:text-blue-800">
-                  Forgot password?
+                  Forgot your password?
                 </a>
               </div>
               <input
