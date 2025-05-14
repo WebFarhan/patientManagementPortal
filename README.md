@@ -1,4 +1,4 @@
-Patient management portal
+## Patient management portal
 
 This application is built using React with TypeScript, leveraging several key technologies:
 
