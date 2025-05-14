@@ -26,8 +26,8 @@ Modern styling approaches
 Would you like me to explain any specific part of the architecture or show you how certain features are implemented?
 
 
-Running the project
+## Running the project
 
-Clone to or download to your local machine
-npm install
-npm run dev
+- Clone to or download to your local machine
+- npm install
+- npm run dev
