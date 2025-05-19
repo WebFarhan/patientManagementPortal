@@ -1,13 +1,15 @@
 
 Traceability Matrix
 
-| Requirement ID | Requirement Description                  | Test Case ID(s)     | Test Case Description(s)            |
-|----------------|------------------------------------------|---------------------|-------------------------------------|
-| REQ-001        | User can register as a new patient       | TC-001, TC-002      | Registration with valid/invalid data|
-| REQ-002        | User must be able to log in  with valid  | TC-003              | Login with valid credentials        |
-|                | login attempt                            |                     |                                     |
-| REQ-003        | User can view their profile              | TC-005              | View profile details                |
-| REQ-004        | User can update profile information      | TC-006, TC-007      | Update profile with valid/invalid data|
-| REQ-005        | Admin can view all patient records       | TC-008              | Admin views patient list            |
-| REQ-006        | System sends appointment reminders       | TC-009              | Appointment reminder notification   |
-| REQ-007        | User can reset password                  | TC-010, TC-011      | Password reset with valid/invalid email|
+| Requirement ID | Requirement Description                  | Test Case ID(s)     | Test Case                                  |
+|----------------|------------------------------------------|---------------------|------------------------------------------- |
+| REQ-001        | User must be able to log in  with valid  | EP-001              | equivalence-partitioning-login.md          |
+|                | login attempt                            |                     |                                            |
+| REQ-002        | System must display an error message     | EP-001              | equivalence-partitioning-login.md          |
+|                | for invalid login attempts               |                     |                                            |
+| REQ-003        | User must land on dashboard page and     | Precondition of     | (covered as precondition in                | 
+|                | view summary of all the patients info    | Test cases (EP-001) |  test cases)                               |
+| REQ-004        | User can view patient info table         | STT-001             | state-transition-testing-patients-info.md  |
+|                | by clicking patients side nav bar option |                     |                                            |
+| REQ-005        |                                          |                     |                                            |
+| REQ-006        |                                          |                     |                                            |
