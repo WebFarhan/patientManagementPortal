@@ -4,12 +4,12 @@
 STT-001
 
 ## Related Requirements:
-FR04 - User can access patients information  
-FR05 - User can view patient's details
-FR06 - User can view all recent appointments details  
+REQ-004 - User can access patients information  
+REQ-005 - User can view patient's details
+REQ-006 - User can view all recent appointments details  
 
-FR07 - User can edit patient's information (Not Implemented)    
-FR10 - User can delete patient from the list (Not Implemented)
+REQ-007 - User can edit patient's information (Not Implemented)    
+REQ-008 - User can delete patient from the list (Not Implemented)
 
 
 
